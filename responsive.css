@@ -1,0 +1,24 @@
+/*Untuk Destop*/
+@media (max-width: 1200px) {
+    .menu-icon {
+        display: none;
+    }
+}
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+}
